@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="section-container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <a href="#home" className="text-xl font-bold gradient-text">Portfolio</a>
+            <a href="#home" className="text-xl font-bold gradient-text">AK</a>
           </div>
           
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-sm opacity-70">
-              &copy; {currentYear} Your Name. All rights reserved.
+              &copy; {currentYear} Amboru Koushik. All rights reserved.
             </p>
           </div>
           

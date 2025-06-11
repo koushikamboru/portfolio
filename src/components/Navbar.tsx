@@ -67,7 +67,7 @@ const Navbar = ({ activeSectionId }: NavbarProps) => {
               onClick={(e) => handleNavClick(e, 'home')}
               className="text-2xl font-bold text-shimmer"
             >
-              Portfolio
+              AK
             </a>
           </div>
 

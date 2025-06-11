@@ -19,7 +19,7 @@ const Index = () => {
 
   // Set page title and initial animation
   useEffect(() => {
-    document.title = 'Your Name - Portfolio';
+    document.title = 'Amboru Koushik - Portfolio';
     
     // Add initial loading animation
     const timer = setTimeout(() => {

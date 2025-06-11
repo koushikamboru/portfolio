@@ -101,7 +101,7 @@ const Hero = () => {
             👋 <span className="animate-wave inline-block">Hello</span>, I'm
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 relative">
-            <span className="text-shimmer glow-text">Your Name</span>
+            <span className="text-shimmer glow-text">Koushik Amboru</span>
             <span className="absolute -left-4 -top-4 text-primary/30 text-sm font-mono animate-pulse floating-element">&lt;dev&gt;</span>
             <span className="absolute -right-4 -bottom-4 text-primary/30 text-sm font-mono animate-pulse floating-element">&lt;/dev&gt;</span>
           </h1>
