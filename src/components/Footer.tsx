@@ -1,23 +1,24 @@
-
 import React from 'react';
+import { cn } from '@/lib/utils';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="glass py-8 relative">
-      <div className="section-container">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <a href="#home" className="text-xl font-bold gradient-text">AK</a>
-          </div>
-          
-          <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className="text-sm opacity-70">
-              &copy; {currentYear} Amboru Koushik. All rights reserved.
-            </p>
-          </div>
-          
+    <footer
+      className={cn(
+        "glass w-full z-40",
+        "max-h-16 min-h-0 h-16", // Height matches navbar
+        "flex items-center mt-28",
+      )}
+      style={{ boxSizing: "border-box" }}
+    >
+      <div className="section-container w-full py-0">
+        <div className="flex flex-row justify-between items-center w-full gap-2">
+          <a href="#home" className="text-xl font-bold gradient-text mb-0">AK</a>
+          <p className="text-xs opacity-70 mb-0 text-center md:text-left whitespace-nowrap">
+            &copy; {currentYear} Amboru Koushik. All rights reserved.
+          </p>
           <div className="flex space-x-4">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

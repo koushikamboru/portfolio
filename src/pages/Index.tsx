@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -165,7 +164,7 @@ const Index = () => {
   }, [currentSectionIndex]);
 
   return (
-    <div className={`min-h-screen bg-background text-foreground overflow-x-hidden transition-all duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
+    <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden transition-all duration-1000">
       {/* Enhanced background parallax layers */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <div 
@@ -192,7 +191,7 @@ const Index = () => {
 
       <Navbar activeSectionId={activeSectionId} />
       
-      <main className="relative z-10 space-y-24 md:space-y-32">
+      <main className="flex-1">
         <div 
           className={`transition-all duration-700 ease-out ${currentSectionIndex === 0 ? 'opacity-100 translate-y-0 scale-100' : 'opacity-80 translate-y-4 scale-[0.98]'}`}
           style={{ transform: `translateY(${scrollY * 0.1}px)` }}
