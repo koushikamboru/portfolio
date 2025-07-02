@@ -60,7 +60,7 @@ const skillsData: SkillCategory[] = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-24 relative">
+    <section id="skills" className="relative">
       {/* Background decorations */}
       <div className="absolute top-0 right-0 w-[20%] h-[30%] bg-secondary/10 rounded-full filter blur-[100px]" />
       

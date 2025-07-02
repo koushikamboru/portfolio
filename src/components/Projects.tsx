@@ -123,7 +123,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-24 relative">
+    <section id="projects" className=" relative">
       {/* Background decorations */}
       <div className="absolute bottom-0 right-0 w-[30%] h-[40%] bg-accent/10 rounded-full filter blur-[100px]" />
 

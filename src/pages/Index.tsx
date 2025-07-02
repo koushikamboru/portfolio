@@ -192,7 +192,7 @@ const Index = () => {
 
       <Navbar activeSectionId={activeSectionId} />
       
-      <main className="relative z-10">
+      <main className="relative z-10 space-y-24 md:space-y-32">
         <div 
           className={`transition-all duration-700 ease-out ${currentSectionIndex === 0 ? 'opacity-100 translate-y-0 scale-100' : 'opacity-80 translate-y-4 scale-[0.98]'}`}
           style={{ transform: `translateY(${scrollY * 0.1}px)` }}

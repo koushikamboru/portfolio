@@ -30,7 +30,7 @@ const educationData: EducationItem[] = [
 
 const About = () => {
   return (
-    <section id="about" className="py-24 relative">
+    <section id="about" className=" relative">
       {/* Background decorations */}
       <div className="absolute top-0 left-0 w-[20%] h-[40%] bg-primary/10 rounded-full filter blur-[100px]" />
 
